@@ -1,4 +1,5 @@
-# Simply copy paste this into a shelf tool script/code section.
+# Simply create a new shelf tool
+# then copy paste this into a shelf tool script tab.
 # This is meant to work alongside the kc_memorylog.py
 
 import hou
