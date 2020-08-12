@@ -1,7 +1,7 @@
-# Simple script to save a backup of the file used to create the cache
-# place in a file anywhere needed and it can be executed with
+# Simple script to save a backup of the file used when running a filecache sop
+# place this file anywhere on your system and it can be executed with
 # exec(open('file_path_here').read()) inside the Pre-Render Script section
-# of the filecache node, also don't forget to dropdown Hscript to python
+# also don't forget to set the dropdown Hscript to python
 import hou
 
 # necessary for creation of intermittent directories
