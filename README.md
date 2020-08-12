@@ -1,7 +1,7 @@
 # python-houdini-tools
 A very simple quick and dirty collection of python snippets I've found useful myself
 
-### Last tested in version: Houdini 18.0.532**
+### Last tested in version: Houdini 18.0.532
 
 # kc_cachebackup
 Creates a backup of the current hipfile when running a sop filecache. Place the file anywhere you'd like and call it in the pre-render script `exec(open('file/path/here').read())` 
