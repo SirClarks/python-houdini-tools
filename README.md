@@ -10,7 +10,7 @@ Creates a backup of the current hipfile when running a sop filecache. Place the 
 
 By default the new file should be created in same directory as your bgeos under `/backup/$OS_backup.hip`
 
-## kc_ropgeobackup.py / kc_mantrabackup.py
-Are functionally the same as the **kc_cachebackup** just adjusted for mantra and geometry rops.
+## kc_ropgeobackup.py and kc_mantrabackup.py
+Are functionally the same as the **kc_cachebackup** just adjusted for mantra and geometry rops. Just point at the scripts using `exec(open('file/path/here').read())` in the pre-render/postrender wherever you need it.
 
-These also work with the ROP Geometery Output and ROP Mantra Render in tops.
+These also work with the ROP Geometery Output and ROP Mantra Render in TOPs.
