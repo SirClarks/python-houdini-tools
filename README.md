@@ -16,7 +16,7 @@ Are functionally the same as the **kc_cachebackup** just adjusted for mantra and
 These also work with the ROP Geometery Output and ROP Mantra Render in TOPs.
 
 # kc_memorylog 
-This quick and dirty script is used to log memory usuage of houdini every time it's cooked. It's best used along with [clear log shelf tool](https://github.com/SirClarks/python-houdini-tools/blob/master/shelf/kc_logclear.py), which will simply clean out the log. Just copy & paste the script into a python node and place wherever needed for example after a dopimport:
+This quick and dirty script is used to log memory usage of houdini every time it's cooked. It's best used along with [clear log shelf tool](https://github.com/SirClarks/python-houdini-tools/blob/master/shelf/kc_logclear.py), which will simply clean out the log. Just copy & paste the script into a python node and place wherever needed for example after a dopimport:
 
 ![Image of an example of the logger use](https://i.imgur.com/pbdKACM.png)
 
