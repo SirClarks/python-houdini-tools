@@ -1,8 +1,7 @@
-# Simple script to save a backup of the file used to create a rop output 
-# from either ROP Geometry Output TOP node or regular /out/ one.
-# place in a file anywhere needed and it can be executed with
+# Simple script to save a backup of the file used when running a geometry rop
+# place this file anywhere on your system and it can be executed with
 # exec(open('file_path_here').read()) inside the Pre-Render Script section
-# also don't forget to dropdown Hscript to python
+# also don't forget to set the dropdown Hscript to python
 import hou
 
 # necessary for creation of intermittent directories
