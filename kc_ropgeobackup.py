@@ -23,7 +23,7 @@ filepath = seperator.join(filepath) + '/'
 if not os.path.exists(filepath):
     os.makedirs(filepath)
 
-# save file path as name of filecache node similar to $OS opname(".")
+# save file path as name of node similar to $OS opname(".")
 filepath += 'backup/' + str(node) + '_backup.hip'
 hou.hipFile.save(file_name=filepath, save_to_recent_files=False)
 
