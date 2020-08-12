@@ -10,7 +10,7 @@ import os
 
 node = hou.pwd()
 
-# edit filepath using sopoutput parm
+# edit filepath using vm_picture parm
 currentfilepath = hou.hipFile.path()
 filepath = node.evalParm('vm_picture')
 filepath = filepath.split('/')
