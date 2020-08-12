@@ -20,5 +20,8 @@ This quick and dirty script is used to log memory usuage of houdini every time i
 
 ![Image of an example of the logger use](https://i.imgur.com/pbdKACM.png)
 
-By default it'll be saved under: `$HIP/log/log.txt` The output will look like this, you could also just open it up in a text editor as well:
+By default it'll be saved under: `$HIP/log/log.txt` 
+
+The output will look like this, you could also just open it up in a text editor as well:
+
 ![Image of log.txt output](https://i.imgur.com/YZaszAS.png)
