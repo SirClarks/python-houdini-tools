@@ -3,6 +3,7 @@
 
 import hou
 n = hou.node('/obj')
+# n = hou.pwd()
 
 # globals
 default_size = (8,3.25)
