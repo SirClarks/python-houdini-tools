@@ -58,4 +58,5 @@ render_box.setSize(render_size)
 render_box.setColor(render_color)
 render_box.setPosition(render_position)
 
+# added popup in an attempt to prevent multiple repetitve clicks on tool.
 hou.ui.displayMessage('Starting Template Created')
