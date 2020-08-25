@@ -1,4 +1,4 @@
-# Simple script to generate flipbook and save to disk.
+# Simple script to generate a starting template of network boxes
 # Just copy & paste this into a shelf tool
 
 import hou
